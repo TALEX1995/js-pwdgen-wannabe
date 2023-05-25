@@ -4,13 +4,13 @@ console.log('JS-OK');
 
 // Creazione variabile con l'elemento DOM in cui vogliamo scrivere
 
-const recommendedPassword = document.getElementById('password');
-console.log(recommendedPassword);
+const passwordPlaceholder = document.getElementById('password');
+console.log(passwordPlaceholder);
 
 // Richiesta Nome all'utente
 
-const nome = prompt('Inserisci il tuo nome', 'Alex');
-console.log(nome);
+const name = prompt('Inserisci il tuo nome', 'Alex');
+console.log(name);
 
 // Richiesta Cognome utente
 
@@ -19,5 +19,10 @@ console.log(surname);
 
 // Richiesta colore preferito
 
-const favoriteColour = prompt('Inserisci il tuo colore preferito', 'Nero');
-console.log(favoriteColour);
+const favoriteColor = prompt('Inserisci il tuo colore preferito', 'Nero');
+console.log(favoriteColor);
+
+// Somma delle variabili 
+
+const recommendedPassword = name + surname + favoriteColor;
+console.log(recommendedPassword);
