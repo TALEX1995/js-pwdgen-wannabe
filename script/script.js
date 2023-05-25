@@ -24,9 +24,14 @@ const favoriteColor = prompt('Inserisci il tuo colore preferito', 'Nero');
 const favoriteColorLowerCase = favoriteColor.toLowerCase();
 console.log(favoriteColorLowerCase);
 
+// Numero random tra 0 e 100 per la password
+
+const randomNumber = Math.floor((Math.random() * 100) + 1);
+console.log(randomNumber)
+
 // Somma delle variabili 
 
-const recommendedPassword = name + surnameLowerCase + favoriteColorLowerCase;
+const recommendedPassword = name + surnameLowerCase + favoriteColorLowerCase + randomNumber;
 console.log(recommendedPassword);
 
 // Inserimento testo all'iterno del DOM
