@@ -15,16 +15,18 @@ console.log(name);
 // Richiesta Cognome utente
 
 const surname = prompt('Inserisci il tuo cognome', 'Tanase');
-console.log(surname);
+const surnameLowerCase = surname.toLowerCase();
+console.log(surnameLowerCase);
 
 // Richiesta colore preferito
 
 const favoriteColor = prompt('Inserisci il tuo colore preferito', 'Nero');
-console.log(favoriteColor);
+const favoriteColorLowerCase = favoriteColor.toLowerCase();
+console.log(favoriteColorLowerCase);
 
 // Somma delle variabili 
 
-const recommendedPassword = name + surname + favoriteColor;
+const recommendedPassword = name + surnameLowerCase + favoriteColorLowerCase;
 console.log(recommendedPassword);
 
 // Inserimento testo all'iterno del DOM
