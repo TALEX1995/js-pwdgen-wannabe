@@ -26,3 +26,7 @@ console.log(favoriteColor);
 
 const recommendedPassword = name + surname + favoriteColor;
 console.log(recommendedPassword);
+
+// Inserimento testo all'iterno del DOM
+
+passwordPlaceholder.innerText = recommendedPassword;
