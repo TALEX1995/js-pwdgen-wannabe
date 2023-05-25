@@ -13,3 +13,6 @@ const nome = prompt('Inserisci il tuo nome', 'Alex');
 console.log(nome);
 
 // Richiesta Cognome utente
+
+const surname = prompt('Inserisci il tuo cognome', 'Tanase');
+console.log(surname);
