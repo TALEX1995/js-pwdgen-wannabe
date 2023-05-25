@@ -1,0 +1,23 @@
+.page-center {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    margin-top: 30px;
+    display: none;
+}
+
+.container:hover img {
+    display: block;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
