@@ -7,5 +7,9 @@ console.log('JS-OK');
 const recommendedPassword = document.getElementById('password');
 console.log(recommendedPassword);
 
-// Richiesta nome all'utente
+// Richiesta Nome all'utente
 
+const nome = prompt('Inserisci il tuo nome', 'Alex');
+console.log(nome);
+
+// Richiesta Cognome utente
